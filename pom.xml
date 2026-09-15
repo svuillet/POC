@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.silverpeas</groupId>
+    <artifactId>silverpeas-project</artifactId>
+    <version>2.0-build260709</version>
+  </parent>
+
+  <properties>
+    <core.version>6.5-SNAPSHOT</core.version>
+  </properties>
+
+  <groupId>org.silverpeas.poc</groupId>
+  <artifactId>keycloak</artifactId>
+  <version>6.5-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>POC for Silverpeas</name>
+  <description>POC for Silverpeas</description>
+
+  <modules>
+    <module>poc-jar</module>
+  </modules>
+
+</project>
